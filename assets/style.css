@@ -183,3 +183,15 @@ p.content {
 .right-side img {
     width: 100%;
 }
+
+.table img.tick-img:nth-child(2) {
+    display: none;
+}
+
+.table:hover img.tick-img:nth-child(2) {
+    display: block;
+}
+
+.table:hover img.tick-img:nth-child(1) {
+    display: none;
+}
