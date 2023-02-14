@@ -192,6 +192,8 @@ p.content {
     display: block;
 }
 
-.table:hover img.tick-img:nth-child(1) {
+
+.table:hover:not(.table:nth-child(2)) img.tick-img:nth-child(1) {
     display: none;
 }
+
